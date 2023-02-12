@@ -1,0 +1,31 @@
+.news__block {
+    width: 100%;
+    box-shadow: 0 16px 24px 2px rgb(212, 212, 212);
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+.news__image {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.news__text {
+    font-size: 19px;
+}
+@media screen and (max-width:800px){
+    .news__block {
+        display: block;
+        text-align: center;
+    }
+    .news__image {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:600px){
+
+}

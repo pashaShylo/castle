@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import 'header';
+@import 'footer';
+@import 'catalog';
+@import 'gallery';
+@import 'react-lazy-load-image-component/src/effects/blur.css';
+@import 'errorPage';
+@import 'oneNews';
+@import '~tachyons/css/tachyons.min.css';
+@import 'slider';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+body {
+    background: #ffffff;
+    font-family: 'Marck Script', cursive;
+    height: 100%;
+}
+.dark-mode {
+    background: #00121b;
+}
+._container {
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+@media screen and (max-width:1200px) {
+    ._container {
+        max-width: 970px;
+    }
+}
+@media screen and (max-width:990px){
+    ._container {
+        max-width: 800px;
+    }
+}
+
